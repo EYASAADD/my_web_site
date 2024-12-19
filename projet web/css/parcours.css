@@ -1,0 +1,107 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; 
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* En-tête de la page */
+header {
+    background-color: #ff6fa1; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px; /* Bords arrondis */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Ombre pour le texte */
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+
+
+nav {
+    background-color: #000000; /* Noir */
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #ff6fa1; /* Rose clair au survol */
+    border-radius: 5px;
+    border-color: #ff6fa1; /* Bordure rose clair */
+}
+
+/* Sections */
+section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ff6fa1; /* Bordure rose clair */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+    max-width: 800px;
+}
+
+section h2 {
+    text-align: center;
+    color: #000000; /* Noir */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Image dans la section */
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    border: 5px solid #ff6fa1; /* Bordure rose */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre pour effet 3D */
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.10); /* Agrandissement au survol */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #000000; /* Noir */
+    color: #ffffff;
+    border-radius: 10px;
+}

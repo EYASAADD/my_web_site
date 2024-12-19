@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Chanteurs Célèbres</title>
+    <link rel="stylesheet" href="../css/quizz.css">
+    <script src="../javascript/script_quizz.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Quizz sur des chansons Célèbres</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="email.html">Contact</a>
+        <a href="manifestation.html">Manifestation</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="passions.html">Passions</a>
+        <a href="temoignage.html">Témoignage</a>
+        <a href="tp_projets.html">TP/Projets</a>
+    </nav>
+
+    <p>Répondez aux 10 questions et découvrez votre score !</p>
+
+    <form id="quizForm" onsubmit="corrigerQuizz(event)">
+        <div class="question">
+            <label for="q1">1. Quelle chanson a été chantée par Edith Piaf ?</label><br>
+            <input type="radio" name="q1" value="La Vie en rose"> La Vie en rose<br>
+            <input type="radio" name="q1" value="Non, je ne regrette rien"> Non, je ne regrette rien<br>
+            <input type="radio" name="q1" value="Je t'aime moi non plus"> Je t'aime moi non plus<br>
+        </div>
+
+        <div class="question">
+            <label for="q2">2. Qui a chanté "Hymne à l'amour" ?</label><br>
+            <input type="radio" name="q2" value="Edith Piaf"> Edith Piaf<br>
+            <input type="radio" name="q2" value="Charles Aznavour"> Charles Aznavour<br>
+            <input type="radio" name="q2" value="Johnny Hallyday"> Johnny Hallyday<br>
+        </div>
+
+        <div class="question">
+            <label for="q3">3. Quelle chanson est associée à Jacques Brel ?</label><br>
+            <input type="radio" name="q3" value="Ne me quitte pas"> Ne me quitte pas<br>
+            <input type="radio" name="q3" value="La Bohème"> La Bohème<br>
+            <input type="radio" name="q3" value="Comme des enfants"> Comme des enfants<br>
+        </div>
+
+        <div class="question">
+            <label for="q4">4. Qui a chanté "Que je t'aime" ?</label><br>
+            <input type="radio" name="q4" value="Johnny Hallyday"> Johnny Hallyday<br>
+            <input type="radio" name="q4" value="Claude François"> Claude François<br>
+            <input type="radio" name="q4" value="Michel Sardou"> Michel Sardou<br>
+        </div>
+
+        <div class="question">
+            <label for="q5">5. Qui est le chanteur de la chanson "Pour que tu m'aimes encore" ?</label><br>
+            <input type="radio" name="q5" value="Céline Dion"> Céline Dion<br>
+            <input type="radio" name="q5" value="Carla Bruni"> Carla Bruni<br>
+            <input type="radio" name="q5" value="Isabelle Boulay"> Isabelle Boulay<br>
+        </div>
+
+        <div class="question">
+            <label for="q6">6. Quelle chanson n'a pas été chantée par Stromae ?</label><br>
+            <input type="radio" name="q6" value="Tourner dans le vide"> Tourner dans le vide<br>
+            <input type="radio" name="q6" value="Formidable"> Formidable<br>
+            <input type="radio" name="q6" value="Papaoutai"> Papaoutai<br>
+        </div>
+
+        <div class="question">
+            <label for="q7">7. Quelle est la chanson emblématique de Michel Sardou ?</label><br>
+            <input type="radio" name="q7" value="Les Lacs du Connemara"> Les Lacs du Connemara<br>
+            <input type="radio" name="q7" value="La Maladie d'amour"> La Maladie d'amour<br>
+            <input type="radio" name="q7" value="Le France"> Le France<br>
+        </div>
+
+        <div class="question">
+            <label for="q8">8. Qui a chanté "L'envie d'aimer" ?</label><br>
+            <input type="radio" name="q8" value="Daniel Lavoie"> Daniel Lavoie<br>
+            <input type="radio" name="q8" value="Jean-Jacques Goldman"> Jean-Jacques Goldman<br>
+            <input type="radio" name="q8" value="Patrick Bruel"> Patrick Bruel<br>
+        </div>
+
+        <div class="question">
+            <label for="q9">9. Quelle chanson est associée à Serge Gainsbourg ?</label><br>
+            <input type="radio" name="q9" value="Je t'aime... moi non plus"> Je t'aime... moi non plus<br>
+            <input type="radio" name="q9" value="La Javanaise"> La Javanaise<br>
+            <input type="radio" name="q9" value="Aux armes et caetera"> Aux armes et caetera<br>
+        </div>
+
+        <div class="question">
+            <label for="q10">10. Qui a chanté "Comme des enfants" ?</label><br>
+            <input type="radio" name="q10" value="Coeur de Pirate"> Coeur de Pirate<br>
+            <input type="radio" name="q10" value="Louane"> Louane<br>
+            <input type="radio" name="q10" value="Zaz"> Zaz<br>
+        </div>
+
+        <button type="submit">Valider</button>
+    </form>
+</body>
+</html>
